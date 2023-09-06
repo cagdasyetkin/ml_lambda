@@ -1,3 +1,6 @@
 venv
 .warmup
 .serverless
+.env
+secrets
+__pycache__
