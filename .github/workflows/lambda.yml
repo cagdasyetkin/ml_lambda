@@ -32,7 +32,7 @@ jobs:
       - name: Install NPM dependencies
         run: npm install
       - name: Deploy
-        run: sls deploy --stage development --verbose
+        run: sls remove --stage development --verbose
   e2e:  # new
     needs: [deploy-development]
     strategy:
