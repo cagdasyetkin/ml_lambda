@@ -18,7 +18,7 @@ functions:
     image:
       name: appimage
     timeout: 90
-    memorySize: 4096
+    memorySize: 3008
     environment:
       TORCH_HOME: /tmp/.ml_cache
       TRANSFORMERS_CACHE: /tmp/.ml_cache/huggingface
